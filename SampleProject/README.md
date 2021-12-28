@@ -1,6 +1,8 @@
 # CSCI XXX - Project Name
 Your Name
+
 Date
+
 Principia College - Winter/Spring/Summer 20XX
 ___
 ## Description
