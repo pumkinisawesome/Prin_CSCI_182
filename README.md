@@ -22,7 +22,7 @@ As you continue through the course, you will add each project to the "Projects" 
 In this section create a brief paragraph describing the class.  A good place to find this is in the Course Syllabus online.
 
 ## Technologies
-- A list of technologies used in the class...
+The following technologies were used in this class:
 - C++
 - Node.js
 - Networking protocols
@@ -31,6 +31,6 @@ In this section create a brief paragraph describing the class.  A good place to 
 ## Projects
 
 - A list of projects found within this repository, followed by a link to each, and description. For example:
-- Missle Command project: https://github.com/chadpaulson/missile-command
+- Missle Command Project: https://github.com/chadpaulson/missile-command
 Used Node.js to build a Missle Command game clone.  Learned how to handle dynamic arrays of objects.
-- Could also link to another place besides Github, if desired
+- Could also link to projects outside Github, if desired
