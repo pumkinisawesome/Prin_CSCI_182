@@ -33,7 +33,8 @@ The following technologies were used in this class:
 ## Projects
 
 - A list of projects found within this repository, followed by a link to each, and description. For example:
-- Sample Project: https://github.com/dicer2000/Prin_CSCI_XXX/tree/main/SampleProject
+- Sample Project: https://github.com/dicer2000/Prin_CSCI_XXX/tree/main/SampleProject.
+
 Used Node.js to build a Sample Project.  Learned how to handle dynamic arrays of objects.
 - Could also link to projects outside Github, if desired
 
