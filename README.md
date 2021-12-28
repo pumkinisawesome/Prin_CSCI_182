@@ -1,5 +1,6 @@
 # CSCI XXX - Course Name
 Your Name
+
 Principia College - Winter/Spring/Summer 20XX
 ___
 ## Directions
