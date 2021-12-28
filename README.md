@@ -35,3 +35,7 @@ The following technologies were used in this class:
 - Sample Project: https://github.com/dicer2000/Prin_CSCI_XXX/tree/main/SampleProject
 Used Node.js to build a Sample Project.  Learned how to handle dynamic arrays of objects.
 - Could also link to projects outside Github, if desired
+
+
+
+*©20XX Your Name*
