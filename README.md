@@ -32,6 +32,6 @@ The following technologies were used in this class:
 ## Projects
 
 - A list of projects found within this repository, followed by a link to each, and description. For example:
-- Missle Command Project: https://github.com/chadpaulson/missile-command
-Used Node.js to build a Missle Command game clone.  Learned how to handle dynamic arrays of objects.
+- Sample Project: https://github.com/chadpaulson/missile-command
+Used Node.js to build a Sample Project.  Learned how to handle dynamic arrays of objects.
 - Could also link to projects outside Github, if desired
