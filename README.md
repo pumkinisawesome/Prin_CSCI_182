@@ -26,6 +26,7 @@ The following technologies were used in this class:
 - C++
 - Node.js
 - Networking protocols
+- SQL Lite
 - etc
 
 ## Projects
