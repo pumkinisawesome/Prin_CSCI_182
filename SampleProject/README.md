@@ -7,7 +7,7 @@ ___
 
 ## Installation
 
-## Running
+## How To Run
 
 ## Problems / Issues
 
