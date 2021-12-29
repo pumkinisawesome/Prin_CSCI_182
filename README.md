@@ -1,8 +1,8 @@
-<img src="assets/logo.png" align="right" >
 # CSCI XXX - Course Name
 Your Name
 
 Principia College - Winter/Spring/Summer 20XX
+<img src="assets/logo.png" align="right" >
 ---
 ## Directions
 This is a markdown template for every Computer Science course at Principia.
