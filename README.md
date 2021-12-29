@@ -1,4 +1,5 @@
 <img src="assets/logo.png" align="right" />
+
 # CSCI XXX - Course Name
 Your Name
 
