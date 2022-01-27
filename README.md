@@ -1,9 +1,9 @@
 <img src="assets/logo.png" align="right" />
 
-# CSCI XXX - Course Name
-Your Name
+# CSCI 182 - Introduction to Data Structures
+Jamie Bland
 
-Principia College - Winter/Spring/Summer 20XX
+Principia College - Spring 2022
 ---
 ## Directions
 This is a markdown template for every Computer Science course at Principia.
@@ -41,4 +41,4 @@ The following technologies were used in this class:
 
 
 
-*©20XX Your Name*
+*©2022 Jamie Bland*
