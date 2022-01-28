@@ -20,11 +20,15 @@ The following technologies were used in this class:
 - Analysis of time and space requirements
 
 ## Projects
+[//]: # (I looked up a way to write comments that don't render in the HTML output, and this was the best way according to the internet, so I used them to keep the template here)
 
-- A list of projects found within this repository, followed by a link to each, and description. For example:
-- Sample Project: https://github.com/dicer2000/Prin_CSCI_XXX/tree/main/SampleProject.
-  Used Node.js to build a Sample Project.  Learned how to handle dynamic arrays of objects.
-- Could also link to projects outside Github, if desired
+- Sample Project: https://github.com/pumkinisawesome/Prin_CSCI_182/tree/main/SampleProject.
+  used Node.js to build a Sample Project. Learned how to handle dynamic arrays of objects.
+
+[//]: # (- A list of projects found within this repository, followed by a link to each, and description. For example:)
+[//]: # (- Sample Project: https://github.com/dicer2000/Prin_CSCI_XXX/tree/main/SampleProject.)
+[//]: # (  Used Node.js to build a Sample Project.  Learned how to handle dynamic arrays of objects.)
+[//]: # (- Could also link to projects outside Github, if desired)
 
 
 
