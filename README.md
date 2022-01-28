@@ -5,32 +5,19 @@ Jamie Bland
 
 Principia College - Spring 2022
 ---
-## Directions
-This is a markdown template for every Computer Science course at Principia.
-
-The end goal will be to have Github repositories for all the work you've done while at Principia College.  This is important to employers and will save you a lot of hassle when you start applying for internships and jobs in the near future.
-
-Each course will have one repository and all that course's projects will be held within it.  This Readme file will act as a template for the class.
-
-While this class is active, the entire repo must be PRIVATE!  After the last day of class, you can switch it to Public so that employers could see it.
-
-Additionally, you must add the instructor as a collaborator in order to advise & grade your work.  Do that by going to the repo, click on Settings => Manage Access => Add People.
-
-### Customization
-Be sure to remove the entire "Directions / Customization" section.  Then fill in each of the relevant areas with information (Such as your name, course name, etc).
-
-As you continue through the course, you will add each project to the "Projects" area below.
-
 ## Class Description:
-In this section create a brief paragraph describing the class.  A good place to find this is in the Course Syllabus online.
+In-depth coverage of programming concepts, with emphasis on data structures, including arrays, structs, class objects, stacks, queues, and lists. Algorithms and complexity analysis for searching and maintaining sorted and unsorted lists. Explicit pointer data type and dynamic allocation of memory. Introduction to object-oriented programming and recursive functions. 
 
 ## Technologies
 The following technologies were used in this class:
 - C++
-- Node.js
-- Networking protocols
-- SQL Lite
-- etc
+- Linked lists, stacks, queues
+- Binary trees
+- Sequential search, binary search
+- Binary search trees, balanced binary search trees, hash tables
+- Heaps for priority queues
+- Sorting algorithms
+- Analysis of time and space requirements
 
 ## Projects
 
