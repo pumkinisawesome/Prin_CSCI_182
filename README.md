@@ -24,10 +24,8 @@ The following technologies were used in this class:
 
 [//]: # (- A list of projects found within this repository, followed by a link to each, and description. For example:)
 
-- Sample Project: https://github.com/pumkinisawesome/Prin_CSCI_182/tree/main/SampleProject.
-  Used Node.js to build a Sample Project. Learned how to handle dynamic arrays of objects.
 - Mod Program: https://github.com/pumkinisawesome/Prin_CSCI_182/tree/main/ModProgram. 
-  Used C++ to build a program that finds the mod of two numbers using two different methods, and prints them to console. 
+  Used C++ to build a program that finds the mod of two numbers using two different methods, and prints them to console. Learned some basics of C++. 
 
 [//]: # (- Could also link to projects outside Github, if desired)
 
