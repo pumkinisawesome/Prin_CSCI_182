@@ -11,24 +11,22 @@ CSCI 182
 int ModBySub(int nFirstVal, int nSecondVal)
 {
     // Test input
-    if(nFirstVal < nSecondVal || nSecondVal < 1)
-    return -1;
+    if (nFirstVal < nSecondVal || nSecondVal < 1)
+        return -1;
 
     // Keep track of the left over values after each subtraction
     int nLeftOverValue = nFirstVal;
-    while(nLeftOverValue >= nSecondVal)
+    while (nLeftOverValue >= nSecondVal)
         nLeftOverValue -= nSecondVal;
-    
 
     // return the left over value
     return nLeftOverValue;
-
 }
 
 int ModByDivis(int nFirstVal, int nSecondVal)
 {
     // Test input
-    if(nFirstVal < nSecondVal || nSecondVal < 1)
+    if (nFirstVal < nSecondVal || nSecondVal < 1)
         return -1;
 
     // Divide values to get integer division result
@@ -38,8 +36,6 @@ int ModByDivis(int nFirstVal, int nSecondVal)
     int nMultipliedVal = nDividedVal * nSecondVal;
 
     return nFirstVal - nMultipliedVal;
-
-    
 }
 
 // Main function
@@ -57,5 +53,4 @@ int main()
     std::cout << nReturnVal1 << ' ' << nReturnVal2 << std::endl;
 
     return 0;
-
 }
