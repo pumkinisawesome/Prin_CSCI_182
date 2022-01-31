@@ -23,6 +23,7 @@ int ModBySub(int nFirstVal, int nSecondVal)
     return nLeftOverValue;
 }
 
+// Function to find Mod with the division method
 int ModByDivis(int nFirstVal, int nSecondVal)
 {
     // Test input
@@ -35,6 +36,7 @@ int ModByDivis(int nFirstVal, int nSecondVal)
     // Multiply divided value back by second value
     int nMultipliedVal = nDividedVal * nSecondVal;
 
+    // return the difference between the two values
     return nFirstVal - nMultipliedVal;
 }
 
@@ -45,7 +47,7 @@ int main()
     int nVal1 = 11;
     int nVal2 = 4;
 
-    // Find the Mod
+    // Find the Mod using two different methods
     int nReturnVal1 = ModBySub(nVal1, nVal2);
     int nReturnVal2 = ModByDivis(nVal1, nVal2);
 
