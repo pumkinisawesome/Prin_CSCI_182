@@ -1,4 +1,4 @@
-# CSCI XXX - Project Name
+# CSCI 182 - Mod Program
 Jamie Bland
 
 1/27/2022
