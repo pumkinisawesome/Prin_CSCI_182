@@ -20,4 +20,4 @@ A simple program that finds the mod of two numbers using two different methods, 
 - 1/28/2022 - Added ReadMe.md file. 
 
 
-*©20XX Your Name*
+*©2022 Jamie Bland*
