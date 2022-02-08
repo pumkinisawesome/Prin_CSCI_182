@@ -48,12 +48,12 @@ int main()
     int nVal2 = 4;
 
     // Find the Mod using two different methods
-    int nReturnValBySub = ModBySub(nVal1, nVal2);
+    int nReturnValBySub   = ModBySub  (nVal1, nVal2);
     int nReturnValByDivis = ModByDivis(nVal1, nVal2);
 
     // Print it
-    std::cout << "Mod of " << nVal1 << " and " << nVal2 << " yielded " << nReturnValBySub << " by subtraction." << std::endl;
-    std::cout << "Mod of " << nVal1 << " and " << nVal2 << " yielded " << nReturnValByDivis << " by division." << std::endl;
+    std::cout << "Mod of " << nVal1 << " and " << nVal2 << " yielded " << nReturnValBySub   << " by subtraction." << std::endl;
+    std::cout << "Mod of " << nVal1 << " and " << nVal2 << " yielded " << nReturnValByDivis << " by division."    << std::endl;
 
     return 0;
 }
