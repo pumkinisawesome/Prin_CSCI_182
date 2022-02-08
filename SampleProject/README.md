@@ -1,5 +1,5 @@
 # CSCI XXX - Project Name
-Your Name
+Jamie Bland
 
 Date
 
@@ -18,4 +18,4 @@ ___
 - 2/10/20XX - Created project, Makefile, this readme file and got it all to compile
 
 
-*©20XX Your Name*
+*©2022 Jamie Bland*
