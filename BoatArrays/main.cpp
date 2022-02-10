@@ -12,6 +12,7 @@ struct Boat
     string name;
 };
 
+// Adds white space to a string to extend the length to charNum, so that text can be alligned
 string getSpacedString(string inputString, int charNum)
 {
     string tempString{ inputString };
@@ -20,15 +21,6 @@ string getSpacedString(string inputString, int charNum)
         tempString += ' ';
 
     return tempString;
-
-    // int charsToAdd{ tempString.length() < charNum };
-    // if (charsToAdd <= 0)
-    //     for (int i = 0; i < charsToAdd; i++)
-    //     {
-    //         tempString.append(' ')
-    //     }
-    //     return tempString
-        
 }
 
 void printBoat(Boat tempBoat)
