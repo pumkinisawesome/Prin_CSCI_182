@@ -25,7 +25,20 @@ The following technologies were used in this class:
 [//]: # (- A list of projects found within this repository, followed by a link to each, and description. For example:)
 
 - Mod Program: https://github.com/pumkinisawesome/Prin_CSCI_182/tree/main/ModProgram. 
-  Used C++ to build a program that finds the mod of two numbers using two different methods, and prints them to console. Learned some basics of C++. 
+  Used C++ to build a program that finds the mod of two numbers using two different methods, and prints them to console. 
+  Learned some basics of C++. 
+
+- Employee Printout: https://github.com/pumkinisawesome/Prin_CSCI_182/tree/main/EmployeePrintout. 
+  Used C++ to build a program to store data about an employee within a structure. 
+  Learned how to create custom data types, such as structs and enums, and how they can be nested.
+
+- Boat Arrays: https://github.com/pumkinisawesome/Prin_CSCI_182/tree/main/BoatArrays. 
+  Used C++ to build a program which reads data from a file, and prints out the name and year of boats. 
+  Learned how to read from files, use 1d arrays, and use loops to apply operations to arrays. 
+
+- Drunken Sailor: https://github.com/pumkinisawesome/Prin_CSCI_182/tree/main/DrunkenSailor. 
+  Used C++ to build a program which uses random numbers to move a "sailor" around a 2d array. 
+  Learned how to use 2d arrays and random numbers. 
 
 [//]: # (- Could also link to projects outside Github, if desired)
 
