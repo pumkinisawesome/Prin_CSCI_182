@@ -15,7 +15,7 @@ ___
 
 ## Work Log
 
-- 2/10/20XX - Created project, Makefile, this readme file and got it all to compile
+- 2/10/20XX - Created project, this readme file and got it all to compile
 
 
 *©2022 Jamie Bland*
