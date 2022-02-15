@@ -43,7 +43,7 @@ int main()
         Direction nextStepDirection{ static_cast<Direction>( rand() % 4 ) };
 
         // For each step move sailor
-        switch (nextStepDirection)
+        switch ( nextStepDirection )
         {
             case NORTH:
                 if ( nSailorY > 0 )
@@ -75,7 +75,7 @@ int main()
         }
 
         // Increment box sailor is in
-        arrSteps[nSailorX][nSailorY]++;
+        arrSteps[ nSailorX ][ nSailorY ]++;
     }
 
     // Loop through rows and columns of grid
