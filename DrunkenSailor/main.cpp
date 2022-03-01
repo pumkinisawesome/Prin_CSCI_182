@@ -1,5 +1,5 @@
 /**
- * @file main.c++
+ * @file main.cpp
  * @author Jamie Bland (jamie@theblands.net)
  * @brief 
  * @version 0.1
