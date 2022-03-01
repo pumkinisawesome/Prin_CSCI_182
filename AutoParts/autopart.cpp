@@ -1,35 +1,28 @@
-/**
- * @file autopart.cpp
- * @author Jamie Bland (jamie@theblands.net)
- * @brief autopart.cpp for AutoParts Project
- * @version 0.1
- * @date 2022-02-15
- * 
- * @copyright Copyright (c) 2022
- * 
- */
-
-
 #include <iostream>
-#include "autopart.h"
+#include "autoPart.h"
 
 // Constructor
-AutoPart::AutoPart( int partNo, int partMaker, std::string partDescription )
+AutoPart::AutoPart( int         t_partNo,
+                    int         t_partMaker,
+                    std::string t_partDescription )
+                    : BasePart( t_partNo )
 {
-    std::cout << "In Autopart Constructor" << '\n';
-    partNo_          = partNo         ;
-    partMaker_       = partMaker      ;
-    partDescription_ = partDescription;
+    std::cout << "\tIn AutoPart Constructor" << '\n';
+
+    m_partMaker       = t_partMaker      ;
+    m_partDescription = t_partDescription;
 }
 
 // Destructor
 AutoPart::~AutoPart()
 {
-    std::cout << "In Autopart Destructor: " << partDescription_ << '\n';
+    std::cout << "\tIn AutoPart Destructor: " << m_partDescription << '\n';
 }
 
 // Print the part
-void AutoPart::PrintPart()
+void AutoPart::printPart()
 {
-    std::cout << partDescription_ << '\n';
+    std::cout <<  m_partDescription         << '\n';
+    std::cout << "Part no. " << getPartNo() << '\n';
+    std::cout << "Maker:   " << m_partMaker << '\n';
 }

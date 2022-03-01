@@ -1,31 +1,22 @@
-/**
- * @file autopart.h
- * @author Jamie Bland (jamie@theblands.net)
- * @brief 
- * @version 0.1
- * @date 2022-02-15
- * 
- * @copyright Copyright (c) 2022
- * 
- */
-
-#ifndef AUTOPART_H
-#define AUTOPART_H
+#pragma once
 
 #include <iostream>
+#include "basePart.h"
 
-class AutoPart
+// 
+class AutoPart : public BasePart
 {
-    private:
-        std::string partDescription_;
-        int         partMaker_      ;
-        int         partNo_         ;
     public:
+        // Constructor
         AutoPart( int partNo, int partMaker, std::string partDescription );
+
+        // Destructor
         ~AutoPart();
 
         // Member function
-        void PrintPart();
-};
+        void printPart();
 
-#endif
+    private:
+        std::string m_partDescription{};
+        int         m_partMaker      {};
+};

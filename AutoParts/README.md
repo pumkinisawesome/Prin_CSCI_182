@@ -16,6 +16,7 @@ ___
 ## Work Log
 
 - 2022-02-17 - Created project, this readme file and got it all to compile
+- 2022-03-01 - Added basePart abstract base class, and enginePart class
 
 
 *©2022 Jamie Bland*
