@@ -9,8 +9,8 @@ using namespace std;
 int main()
 {
    HashTable table;
-   string cmd, key;
-   Data *val;
+   string    cmd, key;
+   Data     *val;
 
    while ( cin >> cmd )
    {

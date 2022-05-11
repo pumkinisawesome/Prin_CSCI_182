@@ -18,7 +18,7 @@ int HashTable::add( string &key, Data *value )
    int homeIdx = hasher(key) % SIZE;
    int hashIdx = homeIdx;
 
-   int hashesChecked = 0;
+   // int hashesChecked = 0;
    
    while ( table[hashIdx] != nullptr )
    {
@@ -70,5 +70,9 @@ int HashTable::drop( const string &key )
          return 0;
    }
 
-   return 0;  // Finish
+   rtn = table[hashIdx]->key == key;
+
+   table[hashIdx] = nullptr;
+
+   return rtn;  // Finish
 }
