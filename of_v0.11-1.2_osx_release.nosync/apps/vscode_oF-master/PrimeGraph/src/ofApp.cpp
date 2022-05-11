@@ -41,22 +41,18 @@ void ofApp::update()
 //--------------------------------------------------------------
 void ofApp::draw()
 {
-
-   // ofBackground( 20,200,100 );
-   // ofSetColor( 255 );
-   // ofDrawRectangle( 100,100,100,100 );
-
+   // Begin using camera
    cam.begin();
    
+   // Set background to black
    ofBackground( 0 );
-   // ofTranslate( ofGetWidth() / 2, ofGetHeight() / 2 );
 
-   // Draw the prime numbers
-   ofSetColor( 0, 230, 70 );
+   // Set up position and set sphere resolution and color
    ofTranslate( 0, -MAX_PRIME * zoomLevel / 2, 0 );
    ofSetSphereResolution( 3 );
-   ofSetColor( 230, 0, 0 );
+   ofSetColor( 36, 223, 7 );
 
+   // Loop through primes and draw
    for ( int i = 0; i < primeNumbers.size(); i++ )
    {
       ofPushMatrix();
@@ -72,19 +68,21 @@ void ofApp::draw()
    ofDrawSphere( 0, 0, 0, 1 );
    ofPopMatrix();
 
+   // End using camera
    cam.end();
-
 }
 
 //--------------------------------------------------------------
 void ofApp::keyPressed( int key )
 {
+   // shift key is used as a multiplier to zoom
    if ( key == OF_KEY_SHIFT )
    {
       shiftPressed = true;
       // std::cout << "Shift on\n";
    }
 
+   // up key is used to zoom in
    if ( key == OF_KEY_UP )
    {
       int multiplier = 2;
@@ -95,6 +93,7 @@ void ofApp::keyPressed( int key )
       // std::cout << zoomLevel << std::endl;
    }
 
+   // down key is used to zoom out
    if ( key == OF_KEY_DOWN )
    {
       int multiplier = 2;
@@ -105,6 +104,7 @@ void ofApp::keyPressed( int key )
       // std::cout << zoomLevel << std::endl;
    }
 
+   // h key is used to reset zoom
    if ( key == 'h' )
    {
       zoomLevel = DEFAULT_ZOOM;
@@ -115,6 +115,7 @@ void ofApp::keyPressed( int key )
 //--------------------------------------------------------------
 void ofApp::keyReleased( int key )
 {
+   // Detects when shift is released, to disable modifier
    if ( key == OF_KEY_SHIFT )
    {
       shiftPressed = false;

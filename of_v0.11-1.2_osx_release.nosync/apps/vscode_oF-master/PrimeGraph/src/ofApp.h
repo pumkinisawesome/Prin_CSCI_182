@@ -25,11 +25,10 @@ class ofApp : public ofBaseApp
       void gotMessage( ofMessage msg );
 
    private:
-      ofEasyCam        cam;
-      const int        MAX_PRIME        = 50000;
-      const double     DEFAULT_ZOOM     = 0.01;
-      double           zoomLevel        = DEFAULT_ZOOM;
-      bool             shiftPressed     = false;
-      // bool             overlayDisplayed = false;
-      std::vector<int> primeNumbers;
+      ofEasyCam        cam;                              // EasyCam object to view in 3D
+      const int        MAX_PRIME        = 50000;         // Maximum value to check for primes
+      const double     DEFAULT_ZOOM     = 0.01;          // Default zoom level
+      double           zoomLevel        = DEFAULT_ZOOM;  // Current zoom level
+      bool             shiftPressed     = false;         // Whether shift is pressed currently
+      std::vector<int> primeNumbers;                     // Vector to store calculated prime numbers
 };
