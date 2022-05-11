@@ -18,7 +18,10 @@ class BinarySearchTree
 
       // Public AddItem into BST
       void addItem( int newItem );
-      void printInOrder() { inOrder( root ); };
+      void printInOrder()                  { inOrder  ( root );             };
+      void printPreOrder()                 { preOrder ( root );             };
+      void printPostOrder()                { postOrder( root );             };
+      void PrintFindItem( int dataToFind ) { findItem ( root, dataToFind ); };
 
       // Print function
       void prettyPrint( int indexItem, int indent );
@@ -31,6 +34,9 @@ class BinarySearchTree
       TreeNode* root;
       
       // Private recursive functions
-      TreeNode* insert ( TreeNode* currentNode, int value );
-      void      inOrder( TreeNode* currentNode );
+      TreeNode* insert   ( TreeNode* currentNode, int value );
+      void      findItem ( TreeNode* currentNode, int dataToFind );
+      void      inOrder  ( TreeNode* currentNode );
+      void      preOrder ( TreeNode* currentNode );
+      void      postOrder( TreeNode* currentNode );
 };

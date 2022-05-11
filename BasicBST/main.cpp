@@ -18,6 +18,26 @@ int main()
    bst.addItem(15);
 
    bst.printInOrder();
+   cout << endl;
+   bst.printPreOrder();
+   cout << endl;
+   bst.printPostOrder();
+
+   // Second bst which acts like a linked list
+   BinarySearchTree anotherBst;
+
+   anotherBst.addItem(8);
+   anotherBst.addItem(10);
+   anotherBst.addItem(15);
+   anotherBst.addItem(16);
+   anotherBst.addItem(21);
+   anotherBst.addItem(44);
+   anotherBst.addItem(81);
+
+   // Test tree search
+   bst.PrintFindItem(16);
+   bst.PrintFindItem(17);
+
 
 
    return 0;
