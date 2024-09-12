@@ -38,7 +38,12 @@ The following technologies were used in this class:
 
 - Drunken Sailor: https://github.com/pumkinisawesome/Prin_CSCI_182/tree/main/DrunkenSailor. 
   Used C++ to build a program which uses random numbers to move a "sailor" around a 2d array. 
-  Learned how to use 2d arrays and random numbers. 
+  Learned how to use 2d arrays and random numbers.
+
+- Prime Graph: https://github.com/pumkinisawesome/Prin_CSCI_182/tree/main/of_v0.11-1.2_osx_release.nosync/apps/vscode_oF-master/PrimeGraph.
+  Used C++ and the openFrameworks toolkit to display prime numbers using polar coordinates.
+  I then chose to make the visualisation 3d, and display the prime numbers as a vortex, adding simple zoom controls to the camera. 
+  Learned how to use 2d and 3d visualisation tools in C++.
 
 [//]: # (- Could also link to projects outside Github, if desired)
 
